@@ -13,7 +13,7 @@ def about():
 
 @app.route("/add/<int:a>/<int:b>")
 def user(a, b):
-    return f"<h1>Natija:{a + b}</h1>"
+    return f"<h1>Natija:{a + b}</h1>" 
 
 if __name__ == "__main__":
     app.run(debug=True)
